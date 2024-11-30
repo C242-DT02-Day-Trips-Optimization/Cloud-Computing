@@ -4,5 +4,7 @@ tensorflow
 scikit-learn
 numpy
 geopy
-requests
+googlemaps
+hdbscan
 python-dotenv
+pandas
