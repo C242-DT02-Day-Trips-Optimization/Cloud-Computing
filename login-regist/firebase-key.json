@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "day-trip-optimization",
+  "private_key_id": "be24a1068c17ef157bf3141385527e86e1276178",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCzImJ2f2AryAYo\nvQj0kijs/mLTro/nVtFT+EuRF1iFltQ5H91JZVKrpy9H8zbLMZ1PEVA1QC4H4Yc0\nPuDHyUCbHMOKYkv8TD9DGr/AKFXajih9Q0WsCnCCQrGkrkKGvEEBHQd9I1uSUtz8\nx9hwQajCWPBEcXOx1knkLy9PYTBSS2BYRTDhj1qFuEtiUupDj/yVjRudVbv6rKJ2\nlQHSGaJlASXnUJomMTKRp2swTfSwNNGCI3b2RIjlq6uM9tXC+fCj2T1YSC+g8T7x\nfIOq3W9G0ryA0LkUsTwDSWlVZnlUJSjORgq1Iu+ambH7R9yBlkMMFnqcajgJNR1l\nHTw4EVBdAgMBAAECggEADQjZus8ib5Ues5yrt+Yhwbrx9H69fGMiGLbWwtA80f2r\nZBu4NaTAivp/k3/0Uv1BedUj7bgFkW+875WKtCbmA1NovBtSdaGTsd2SqdgVhTF2\na0T3nyDkVmoldHr0nsq4fS0AVD/8JA3RBDjDfEmezsN7ejN6LGzQFCFF00QaaMZx\nqlB7W0iD1ejxD+a5e3+GhEbVSslCzFQIigNnbxHLylSDbpRNLaUHeX/OwatQndC3\nJZ9kDYDMduvXEadSG9qy0a/b+a0nsNhjc3C9J5GpZP/fBuI4otVTyCek1qXw5jZd\nYpo69eKlXmdakT8puMqcYYqUsRM7pbTmqHo6r4v08QKBgQDWih2orUSOf4z+M+EI\nx4v8ZVMSRezDcM8Stp81T/x1xzjV8flyCy/Icqax92syL6MvZKHo+KiHhNmPV4wQ\n1UCYDfrHUVDEOpORtwRea1qwrKBfUlDQbywHGsNSJdD9v0iPDLjlz5Ydyjwe0PcV\nBU/egIsSFumfi2/0bd97ThewLQKBgQDVwKwQ1vVCqsysb8Ze0meARdeUF3v/NC7s\nywkImByQf/jhmEurCnJX6F2Kc8kSFHzObPtB9GJI3zbK+TRLP0BxaA32Lfyltnu5\nINo4DCH4QzB/Qa2NMeclEqRXWReziaC5wLaLK3B8/g0UOhKQAbZu2BJM/LxmWtHu\nLRrFO+oO8QKBgQCE3gz4RjbLOduMI30e/taHfgkwq/WyJM9Z+5gmYF8uYi+k8LNY\nGe2B6t+qIF1XO4GI/H351uYo5/IFgGbSlf/nK+FAR/AJV23FNN+TylDkUkUQQ96g\n9/kAfWayHZGNVUYOsgZg7Ws/D9ykCS686glI97spfN87XBP+AX4C056AEQKBgFSU\n+kFrnf90cKsnS7rHzVbvzB94r4NL1emzae6xqlPvn789MWwMJTTt6N3ZdU4nNz/D\n1iTCHIYzdY4Z0HyaGdkGUMgCaH/2Vrzp6A/XlTWU+MLSbWd6wLllyAwcYAmWQzhd\nrp4hYVDEgs5nMGM1mkgATjWSqMZj18BErtwvGi4xAoGAQfojcs+X6LRAf97io66R\ny/yheECj8U7XrdhGZ8jqE8R0+xIkLwAxHTrA0xzF4Wcjd0Fv/hAKhU8iTrnG24Pp\nN4bffGWY8MHrlJUNmtn/+jR3NZEfg2BWpq813rI47ER0BvdnUrx8sJLMO0QFl0Cc\nKb3nZvFN+7/eYilicxSGHHE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-qckf4@day-trip-optimization.iam.gserviceaccount.com",
+  "client_id": "114099990018924845457",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-qckf4%40day-trip-optimization.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
