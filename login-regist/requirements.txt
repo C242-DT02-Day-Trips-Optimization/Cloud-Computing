@@ -1,7 +1,0 @@
-flask
-firebase-admin
-requests
-google-cloud-firestore
-gunicorn
-python-dotenv
-bcrypt
