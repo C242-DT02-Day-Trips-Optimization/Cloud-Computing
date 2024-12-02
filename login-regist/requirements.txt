@@ -1,5 +1,0 @@
-flask
-firebase-admin
-gunicorn
-google-cloud-firestore
-requests
