@@ -1,5 +1,7 @@
 flask
 firebase-admin
-gunicorn
-google-cloud-firestore
 requests
+google-cloud-firestore
+gunicorn
+python-dotenv
+bcrypt

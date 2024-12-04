@@ -6,7 +6,11 @@ import pandas as pd
 import joblib
 from app.models import ClusteringInput
 from app.clustering import tensorflow_kmeans
-from app.scheduling import parallel_schedule_clusters, handle_unvisitable
+from app.scheduling import (
+    schedule_cluster_with_proximity,
+    handle_unvisitable,
+    parallel_schedule_clusters
+)
 # from app.utils import visualize_clusters, visualize_routing#, generate_schedule_table
 from app.evaluation import (
     compute_silhouette_score,
@@ -170,6 +174,10 @@ def load_model(province: str):
         model_path = 'model/jatim.pkl'  
     elif province.lower() == ('jawa barat' or 'west java'):
         model_path = 'model/jabar.pkl'  
+    elif province.lower() == ('jawa tengah' or 'central java'):
+        model_path = 'model/jateng.pkl'  
+    elif province.lower() == ('jakarta' or 'dki jakarta'):
+        model_path = 'model/jakarta.pkl'  
     elif province.lower() == 'bali':
         model_path = 'model/bali.pkl'  
     else:
@@ -177,14 +185,6 @@ def load_model(province: str):
     
     # Load the model
     return joblib.load(model_path)
-
-# Endpoint for generating a recommended schedule using the pre-trained model
-# Import scheduling functions
-from app.scheduling import (
-    schedule_cluster_with_proximity,
-    handle_unvisitable,
-    parallel_schedule_clusters
-)
 
 # Endpoint for generating a recommended schedule using the pre-trained model (HDBSCAN version)
 @clustering_router.post("/recommend/") 
