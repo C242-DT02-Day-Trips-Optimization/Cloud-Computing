@@ -95,13 +95,27 @@ def login():
 
         if response.status_code == 200:
             user_data = response.json()
-            return jsonify({
-                "message": "Login successful",
-                "idToken": user_data["idToken"],
-                "refreshToken": user_data["refreshToken"],
-                "expiresIn": user_data["expiresIn"],
-                "userId": user_data["localId"]
-            }), 200
+
+            # Fetch the username and email from Firestore using the Firebase UID
+            user_ref = db.collection('users').document(user_data["localId"])
+            user_snapshot = user_ref.get()
+            
+            if user_snapshot.exists:
+                user_info = user_snapshot.to_dict()
+                username = user_info.get("username")
+                email = user_info.get("email")
+                
+                return jsonify({
+                    "message": "Login successful",
+                    "idToken": user_data["idToken"],
+                    "refreshToken": user_data["refreshToken"],
+                    "expiresIn": user_data["expiresIn"],
+                    "userId": user_data["localId"],
+                    "username": username,  # Add username to the response
+                    "email": email         # Add email to the response
+                }), 200
+            else:
+                return jsonify({"error": "User data not found in Firestore"}), 404
         else:
             return jsonify({"error": response.json().get("error", {}).get("message", "Login failed")}), 400
 
