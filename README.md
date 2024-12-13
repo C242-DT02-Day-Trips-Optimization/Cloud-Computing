@@ -1,4 +1,4 @@
-## Table of Contents
+# Table of Contents
 - [Overview](#overview)
 - [Based Urls](#Based-Urls)
 - [Technologies Used](#technologies-used)
@@ -8,21 +8,21 @@
 - [API Endpoints](#api-endpoints)
 - [Figma Design](#figma-design)
 
-## Overview
-# Cloud Architecture
+# Overview
+## Cloud Architecture
 ![Cloud Architecture](https://i.postimg.cc/rm9vjy15/Roamio.png)
 This project provides two main APIs:
 - A CRUD User API for managing user accounts (registration, login, profile updates, etc.).
 - A Clustering API for grouping points of interest into clusters and generating recommendations based on proximity and user-defined preferences.
   
-## Based Urls
+# Based Urls
 - CRUD User API Base URL : 
 https://auth-api-996559796971.asia-southeast2.run.app
 
 - Clustering API Base URL :
 https://clustering-api-996559796971.asia-southeast2.run.app
 
-## Technologies Used
+# Technologies Used
 - Flask: A lightweight web framework for building the API.
 - firebase-admin: To integrate Firebase features like authentication and Firestore database management.
 - requests: For making HTTP requests within the API.
@@ -41,7 +41,7 @@ https://clustering-api-996559796971.asia-southeast2.run.app
 - pandas: For data analysis and manipulation.
 
 
-## API
+# API
 # CRUD User API
 
 This project provides a simple CRUD (Create, Read, Update, Delete) API for user management. The API allows users to register, log in, update their profile, view user details, and delete accounts. It can be easily tested using Postman.
