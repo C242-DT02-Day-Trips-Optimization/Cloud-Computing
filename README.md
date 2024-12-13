@@ -9,7 +9,7 @@
 - [Figma Design](#figma-design)
 
 ## API
-#CRUDUserAPI
+# CRUD User API
 
 This project provides a simple CRUD (Create, Read, Update, Delete) API for user management. The API allows users to register, log in, update their profile, view user details, and delete accounts. It can be easily tested using Postman.
 
