@@ -1,3 +1,13 @@
+## Table of Contents
+- [Description](#description)
+- [User API](#CRUDUserAPI)
+- [Clustering API](#clusteringAPI)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [API Endpoints](#api-endpoints)
+- [Figma Design](#figma-design)
+
 ## API
 # CRUD User API
 
