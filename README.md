@@ -26,9 +26,6 @@ https://clustering-api-996559796971.asia-southeast2.run.app
 
 This project provides a simple CRUD (Create, Read, Update, Delete) API for user management. The API allows users to register, log in, update their profile, view user details, and delete accounts. It can be easily tested using Postman.
 
-Base URL:
-https://auth-api-996559796971.asia-southeast2.run.app
-
 ## API Endpoints
 
 ### 1. Register User
@@ -122,9 +119,6 @@ https://auth-api-996559796971.asia-southeast2.run.app
 # clustering API
 
 This project provides a clustering and recommendation functionality. It allows users to group data into clusters and generate personalized recommendations based on the clustered results.
-
-Base URL:
-https://clustering-api-996559796971.asia-southeast2.run.app
 
 ## API Endpoints
 
