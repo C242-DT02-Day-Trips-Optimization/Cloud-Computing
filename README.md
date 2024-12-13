@@ -1,6 +1,6 @@
 ## Table of Contents
 - [Overview](#overview)
-- [User API](#CRUDUserAPI)
+- [Based Urls](#BasedUrls)
 - [Clustering API](#clusteringAPI)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
@@ -14,6 +14,13 @@ This project provides two main APIs:
 - A CRUD User API for managing user accounts (registration, login, profile updates, etc.).
 - A Clustering API for grouping points of interest into clusters and generating recommendations based on proximity and user-defined preferences.
   
+## Based Urls
+- CRUD User API Base URL
+https://auth-api-996559796971.asia-southeast2.run.app
+
+- Clustering API Base URL
+https://clustering-api-996559796971.asia-southeast2.run.app
+
 ## API
 # CRUD User API
 
