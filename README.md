@@ -212,7 +212,7 @@ https://clustering-api-996559796971.asia-southeast2.run.app
 }
 ```
 
-### 1. Clustering 
+### 2. Clustering 
 **Endpoint:** `POST /cluster/`  
 **Description:** This endpoint designed to optimize location-based data by grouping points of interest into clusters like travel planning or location-based recommendations, where grouping nearby locations can significantly improve efficiency and user experience
 **Request Body:**
