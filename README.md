@@ -9,9 +9,7 @@
 - [Figma Design](#figma-design)
 
 ## Overview
-<div style="display: flex; justify-content: space-between;">
-    <img src="https://i.postimg.cc/rm9vjy15/Roamio.png" alt="Cloud Architecture" width="50%" />
-</div>
+![Cloud Architecture](https://i.postimg.cc/rm9vjy15/Roamio.png)
 This project provides two main APIs:
 - A CRUD User API for managing user accounts (registration, login, profile updates, etc.).
 - A Clustering API for grouping points of interest into clusters and generating recommendations based on proximity and user-defined preferences.
