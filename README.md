@@ -367,5 +367,20 @@ CRUD User API Collection
 clusterING API Collection
 - [Download clusterING API Collection](https://drive.google.com/file/d/1-f2TU69dEwB7avqT5sVqRT3dD4bxiLMD/view?usp=sharing)
 
+#How to use postman Collection
+- Install Postman: Download and install Postman from Postman’s Official Website.
 
+- Import the Collections:
+Download the provided Postman collections for CRUD User API and ML Endpoints from the links above.
+Open Postman and click on "Import." Select the downloaded .json files to import them into Postman.
+
+- Set Up Environment Variables:
+Define your environment variables in Postman (e.g., Base URL) to streamline testing. Add variables like auth-api-base-url and clustering-api-base-url with the respective URLs provided.
+
+- Test the APIs:
+Use the endpoints in the imported collections to test the CRUD User API and Clustering API functionalities.
+You can modify the request parameters as needed in Postman to test different scenarios.
+
+- Review Responses:
+Check the response details to validate the API behavior. Postman will display the request and response details, including status codes and body.
 
