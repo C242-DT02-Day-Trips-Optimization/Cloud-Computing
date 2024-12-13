@@ -15,10 +15,10 @@ This project provides two main APIs:
 - A Clustering API for grouping points of interest into clusters and generating recommendations based on proximity and user-defined preferences.
   
 # Based Urls
-- CRUD User API Base URL : 
+- CRUD User API Base URL :  
 https://auth-api-996559796971.asia-southeast2.run.app
 
-- Clustering API Base URL :
+- Clustering API Base URL :  
 https://clustering-api-996559796971.asia-southeast2.run.app
 
 # API
@@ -49,7 +49,7 @@ This project provides a simple CRUD (Create, Read, Update, Delete) API for user 
 ```
 ### 2. Login User
 **Endpoint:** `POST /user/login`  
-**Description:** Log in an existing user using their email/username and password.
+**Description:** Log in an existing user using their email/username and password.  
 **Request Body:**
 ```json
 {
@@ -71,7 +71,7 @@ This project provides a simple CRUD (Create, Read, Update, Delete) API for user 
 ```
 ### 3. Update User
 **Endpoint:** `PUT /user/update_user/{user_id}`  
-**Description:** Update an existing user's information (username, email, password). 
+**Description:** Update an existing user's information (username, email, password).  
 **Request Body:**
 ```json
 {
@@ -95,7 +95,7 @@ This project provides a simple CRUD (Create, Read, Update, Delete) API for user 
 ```
 ### 4. Get User Details
 **Endpoint:** `GET /user/get_user/{user_id}`  
-**Description:** Retrieve the details of a specific user by their user ID. 
+**Description:** Retrieve the details of a specific user by their user ID.  
 **Response:**
 ```json
 {
@@ -108,7 +108,7 @@ This project provides a simple CRUD (Create, Read, Update, Delete) API for user 
 ```
 ### 5. Delete User
 **Endpoint:** `DELETE /user/delete_user/{user_id}`  
-**Description:** Delete a specific user account by their user ID. 
+**Description:** Delete a specific user account by their user ID.  
 **Response:**
 ```json
 {
