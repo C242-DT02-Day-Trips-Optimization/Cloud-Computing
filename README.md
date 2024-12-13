@@ -367,7 +367,7 @@ CRUD User API Collection
 clusterING API Collection
 - [Download clusterING API Collection](https://drive.google.com/file/d/1-f2TU69dEwB7avqT5sVqRT3dD4bxiLMD/view?usp=sharing)
 
-#How to use postman Collection
+# How to use postman Collection
 - Install Postman: Download and install Postman from Postman’s Official Website.
 
 - Import the Collections:
