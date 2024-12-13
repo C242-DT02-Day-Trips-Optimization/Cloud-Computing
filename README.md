@@ -1,5 +1,5 @@
 ## Table of Contents
-- [Description](#description)
+- [Overview](#overview)
 - [User API](#CRUDUserAPI)
 - [Clustering API](#clusteringAPI)
 - [Technologies Used](#technologies-used)
@@ -8,6 +8,12 @@
 - [API Endpoints](#api-endpoints)
 - [Figma Design](#figma-design)
 
+## Overview
+
+This project provides two main APIs:
+- A CRUD User API for managing user accounts (registration, login, profile updates, etc.).
+- A Clustering API for grouping points of interest into clusters and generating recommendations based on proximity and user-defined preferences.
+  
 ## API
 # CRUD User API
 
