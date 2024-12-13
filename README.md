@@ -124,7 +124,7 @@ This project provides a clustering and recommendation functionality. It allows u
 
 ### 1. Recomendation 
 **Endpoint:** `POST /recommend`  
-**Description:** This endpoint generates recommendations based on the user's input. It uses clustering results to suggest location or place that are most relevant to the user's preferences.
+**Description:** This endpoint generates recommendations based on the user's input. It uses clustering results to suggest location or place that are most relevant to the user's preferences.  
 **Request Body:**
 ```json
 {
@@ -231,7 +231,7 @@ This project provides a clustering and recommendation functionality. It allows u
 
 ### 2. Clustering 
 **Endpoint:** `POST /cluster/`  
-**Description:** This endpoint designed to optimize location-based data by grouping points of interest into clusters like travel planning or location-based recommendations, where grouping nearby locations can significantly improve efficiency and user experience
+**Description:** This endpoint designed to optimize location-based data by grouping points of interest into clusters like travel planning or location-based recommendations, where grouping nearby locations can significantly improve efficiency and user experience  
 **Request Body:**
 ```json
  {
