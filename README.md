@@ -1,9 +1,9 @@
 # Table of Contents
 - [Overview](#overview)
 - [Based Urls](#Based-Urls)
-- [Technologies Used](#technologies-used)
 - [CRUD User API](#CRUD-User-API)
 - [clustering API](#clustering-API)
+- [Technologies Used](#technologies-used)
 - [Usage](#usage)
 - [API Endpoints](#api-endpoints)
 - [Figma Design](#figma-design)
@@ -21,25 +21,6 @@ https://auth-api-996559796971.asia-southeast2.run.app
 
 - Clustering API Base URL :
 https://clustering-api-996559796971.asia-southeast2.run.app
-
-# Technologies Used
-- Flask: A lightweight web framework for building the API.
-- firebase-admin: To integrate Firebase features like authentication and Firestore database management.
-- requests: For making HTTP requests within the API.
-- google-cloud-firestore: For managing and querying Firestore, the cloud-hosted NoSQL database.
-- gunicorn: A WSGI HTTP server for running the Flask app in production.
-- python-dotenv: For managing environment variables.
-- bcrypt: For securely hashing and validating user passwords.
-- FastAPI: A modern framework for building fast APIs.
-- uvicorn: A high-performance ASGI server for running FastAPI applications.
-- tensorflow: For implementing machine learning models.
-- scikit-learn: For clustering and other machine learning tasks.
-- numpy: For numerical computations.
-- geopy: For geospatial data manipulation.
-- googlemaps: To interact with the Google Maps API.
-- hdbscan: For density-based clustering.
-- pandas: For data analysis and manipulation.
-
 
 # API
 # CRUD User API
@@ -360,6 +341,25 @@ This project provides a clustering and recommendation functionality. It allows u
   "final_unvisitable": []
 }
 ```
+
+# Technologies Used
+- Flask: A lightweight web framework for building the API.
+- firebase-admin: To integrate Firebase features like authentication and Firestore database management.
+- requests: For making HTTP requests within the API.
+- google-cloud-firestore: For managing and querying Firestore, the cloud-hosted NoSQL database.
+- gunicorn: A WSGI HTTP server for running the Flask app in production.
+- python-dotenv: For managing environment variables.
+- bcrypt: For securely hashing and validating user passwords.
+- FastAPI: A modern framework for building fast APIs.
+- uvicorn: A high-performance ASGI server for running FastAPI applications.
+- tensorflow: For implementing machine learning models.
+- scikit-learn: For clustering and other machine learning tasks.
+- numpy: For numerical computations.
+- geopy: For geospatial data manipulation.
+- googlemaps: To interact with the Google Maps API.
+- hdbscan: For density-based clustering.
+- pandas: For data analysis and manipulation.
+
 
 
 
