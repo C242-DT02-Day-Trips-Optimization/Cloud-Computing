@@ -19,15 +19,15 @@ https://auth-api-996559796971.asia-southeast2.run.app
   "password": "peach123",
   "confirm_password": "peach123"
 }
-
+```
 **Response:**
 ```json
 {
   "message": "User registered successfully",
   "uid": "RhMCtVYCHXRxy3sni9zX8WhGwmG3"
 }
-
-2. Login User
+```
+###2. Login User
 **Endpoint:** `POST /user/login`  
 **Description:** Log in an existing user using their email/username and password. 
 **Request Body:**
@@ -36,7 +36,7 @@ https://auth-api-996559796971.asia-southeast2.run.app
   "identifier": "peach@gmail.com",
   "password": "peach123"
 }
-
+```
 **Response:**
 ```json
 {
@@ -48,7 +48,7 @@ https://auth-api-996559796971.asia-southeast2.run.app
   "userId": "RhMCtVYCHXRxy3sni9zX8WhGwmG3",
   "username": "peach_updated"
 }
-
+```
 ### 3. Update User
 **Endpoint:** `PUT /user/update_user/{user_id}`  
 **Description:** Update an existing user's information (username, email, password). 
@@ -59,7 +59,7 @@ https://auth-api-996559796971.asia-southeast2.run.app
   "email": "peach_updated@gmail.com",
   "password": "peach456"
 }
-
+```
 **Response:**
 ```json
 {
@@ -72,7 +72,7 @@ https://auth-api-996559796971.asia-southeast2.run.app
     "username": "jambu"
   }
 }
-
+```
 ### 4. Get User Details
 **Endpoint:** `GET /user/get_user/{user_id}`  
 **Description:** Retrieve the details of a specific user by their user ID. 
@@ -85,7 +85,7 @@ https://auth-api-996559796971.asia-southeast2.run.app
   "updated_at": "2024-12-11T11:29:22.153267",
   "username": "jambu"
 }
-
+```
 ### 5. Delete User
 **Endpoint:** `DELETE /user/delete_user/{user_id}`  
 **Description:** Delete a specific user account by their user ID. 
@@ -94,7 +94,7 @@ https://auth-api-996559796971.asia-southeast2.run.app
 {
   "message": "User deleted successfully"
 }
-
+```
 
 
 
