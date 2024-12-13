@@ -358,6 +358,10 @@ This project provides a clustering and recommendation functionality. It allows u
 - googlemaps: To interact with the Google Maps API.
 - hdbscan: For density-based clustering.
 - pandas: For data analysis and manipulation.
+- Google Cloud Platform (GCP): For hosting and deploying cloud-based services.
+- Cloud Run: To deploy and manage serverless containers on GCP.
+
+
 
 # Postman Collections
 CRUD User API Collection
