@@ -9,7 +9,7 @@
 - [Figma Design](#figma-design)
 
 ## Overview
-#Cloud Architecture
+# Cloud Architecture
 ![Cloud Architecture](https://i.postimg.cc/rm9vjy15/Roamio.png)
 This project provides two main APIs:
 - A CRUD User API for managing user accounts (registration, login, profile updates, etc.).
