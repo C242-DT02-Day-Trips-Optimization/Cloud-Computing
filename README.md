@@ -49,7 +49,7 @@ This project provides a simple CRUD (Create, Read, Update, Delete) API for user 
 ```
 ### 2. Login User
 **Endpoint:** `POST /user/login`  
-**Description:** Log in an existing user using their email/username and password. 
+**Description:** Log in an existing user using their email/username and password.
 **Request Body:**
 ```json
 {
