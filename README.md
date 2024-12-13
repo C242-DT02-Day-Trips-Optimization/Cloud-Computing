@@ -96,6 +96,233 @@ https://auth-api-996559796971.asia-southeast2.run.app
 }
 ```
 
+# clustering API
+
+This project provides a clustering and recommendation functionality. It allows users to group data into clusters and generate personalized recommendations based on the clustered results.
+
+Base URL:
+https://clustering-api-996559796971.asia-southeast2.run.app
+
+## API Endpoints
+
+### 1. Recomendation 
+**Endpoint:** `POST /recommend`  
+**Description:** This endpoint generates recommendations based on the user's input. It uses clustering results to suggest location or place that are most relevant to the user's preferences.
+**Request Body:**
+```json
+{
+    "points": [
+        {"name": "Surabaya Zoo", "coordinates": [-7.3024, 112.7367]},
+        {"name": "House of Sampoerna", "coordinates": [-7.2482, 112.7356]},
+        {"name": "Submarine Monument", "coordinates": [-7.2656, 112.7461]},
+        {"name": "Tugu Pahlawan", "coordinates": [-7.2458, 112.7374]},
+        {"name": "Ciputra Waterpark", "coordinates": [-7.3167, 112.6308]},
+        {"name": "Kenjeran Beach", "coordinates": [-7.2488, 112.8058]},
+        {"name": "Galaxy Mall Surabaya", "coordinates": [-7.2940, 112.7700]},
+        {"name": "Suroboyo Bridge", "coordinates": [-7.2475, 112.7802]},
+        {"name": "Suro and Boyo Statue", "coordinates": [-7.3053, 112.7385]},
+        {"name": "Pakuwon Mall", "coordinates": [-7.2916, 112.6429]}
+	],
+    "num_clusters": 3,
+    "province": "jawa timur",
+    "daily_start_time": "08:00",
+    "daily_end_time": "18:00"
+}
+
+```
+**Response:**
+```json
+{
+  "grouped_clusters": [
+	{
+      "cluster": 0,
+      "schedule": [
+    	{
+          "name": "Ciputra Waterpark",
+          "avg_duration": 292,
+          "travel_time": null,
+          "mode": null
+    	},
+    	{
+          "name": "Pakuwon Mall",
+          "avg_duration": 292,
+          "travel_time": 15,
+          "mode": "driving"
+    	}
+  	],
+      "avg_duration": 292
+	},
+	{
+      "cluster": 1,
+      "schedule": [
+    	{
+          "name": "Surabaya Zoo",
+          "avg_duration": 58,
+          "travel_time": null,
+          "mode": null
+    	},
+    	{
+          "name": "Suro and Boyo Statue",
+          "avg_duration": 58,
+          "travel_time": 15,
+          "mode": "walking"
+    	},
+    	{
+          "name": "Galaxy Mall Surabaya",
+          "avg_duration": 58,
+          "travel_time": 16,
+          "mode": "driving"
+    	},
+    	{
+          "name": "Submarine Monument",
+          "avg_duration": 58,
+          "travel_time": 18,
+          "mode": "driving"
+    	},
+    	{
+          "name": "House of Sampoerna",
+          "avg_duration": 58,
+          "travel_time": 10,
+          "mode": "driving"
+    	},
+    	{
+          "name": "Tugu Pahlawan",
+          "avg_duration": 58,
+          "travel_time": 6,
+          "mode": "walking"
+    	},
+    	{
+          "name": "Suroboyo Bridge",
+          "avg_duration": 58,
+          "travel_time": 16,
+          "mode": "driving"
+    	},
+    	{
+          "name": "Kenjeran Beach",
+          "avg_duration": 58,
+          "travel_time": 9,
+          "mode": "driving"
+    	}
+  	],
+      "avg_duration": 58
+	}
+  ],
+  "final_unvisitable": [],
+  "recommended_days": 2
+}
+```
+
+### 1. Clustering 
+**Endpoint:** `POST /cluster/`  
+**Description:** This endpoint designed to optimize location-based data by grouping points of interest into clusters like travel planning or location-based recommendations, where grouping nearby locations can significantly improve efficiency and user experience
+**Request Body:**
+```json
+ {
+    "points": [
+        {"name": "Surabaya Zoo", "coordinates": [-7.3024, 112.7367]},
+        {"name": "House of Sampoerna", "coordinates": [-7.2482, 112.7356]},
+        {"name": "Submarine Monument", "coordinates": [-7.2656, 112.7461]},
+        {"name": "Tugu Pahlawan", "coordinates": [-7.2458, 112.7374]},
+        {"name": "Ciputra Waterpark", "coordinates": [-7.3167, 112.6308]},
+        {"name": "Kenjeran Beach", "coordinates": [-7.2488, 112.8058]},
+        {"name": "Galaxy Mall Surabaya", "coordinates": [-7.2940, 112.7700]},
+        {"name": "Suroboyo Bridge", "coordinates": [-7.2475, 112.7802]},
+        {"name": "Suro and Boyo Statue", "coordinates": [-7.3053, 112.7385]},
+        {"name": "Pakuwon Mall", "coordinates": [-7.2916, 112.6429]}
+	],
+    "num_clusters": 3,
+    "province": "jawa timur",
+    "daily_start_time": "08:00",
+    "daily_end_time": "18:00"
+}
+
+```
+**Response:**
+```json
+{
+  "grouped_clusters": [
+	{
+      "cluster": 0,
+      "avg_duration": 109,
+      "schedule": [
+    	{
+          "name": "House of Sampoerna",
+          "avg_duration": 109,
+          "travel_time": null,
+          "mode": null
+    	},
+    	{
+          "name": "Tugu Pahlawan",
+          "avg_duration": 109,
+          "travel_time": 6,
+          "mode": "walking"
+    	},
+    	{
+          "name": "Submarine Monument",
+          "avg_duration": 109,
+          "travel_time": 9,
+          "mode": "driving"
+    	},
+    	{
+          "name": "Suroboyo Bridge",
+          "avg_duration": 109,
+          "travel_time": 19,
+          "mode": "driving"
+    	},
+    	{
+          "name": "Kenjeran Beach",
+          "avg_duration": 109,
+          "travel_time": 9,
+          "mode": "driving"
+    	}
+  	]
+	},
+	{
+      "cluster": 1,
+      "avg_duration": 189,
+      "schedule": [
+    	{
+          "name": "Surabaya Zoo",
+          "avg_duration": 189,
+          "travel_time": null,
+          "mode": null
+    	},
+    	{
+          "name": "Suro and Boyo Statue",
+          "avg_duration": 189,
+          "travel_time": 15,
+          "mode": "walking"
+    	},
+    	{
+          "name": "Galaxy Mall Surabaya",
+          "avg_duration": 189,
+          "travel_time": 16,
+          "mode": "driving"
+    	}
+  	]
+	},
+	{
+      "cluster": 2,
+      "avg_duration": 292,
+      "schedule": [
+    	{
+          "name": "Ciputra Waterpark",
+          "avg_duration": 292,
+          "travel_time": null,
+          "mode": null
+    	},
+    	{
+          "name": "Pakuwon Mall",
+          "avg_duration": 292,
+          "travel_time": 15,
+          "mode": "driving"
+    	}
+  	]
+	}
+  ],
+  "final_unvisitable": []
+}
+```
 
 
 
