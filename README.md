@@ -15,10 +15,10 @@ This project provides two main APIs:
 - A Clustering API for grouping points of interest into clusters and generating recommendations based on proximity and user-defined preferences.
   
 ## Based Urls
-- CRUD User API Base URL
+- CRUD User API Base URL : 
 https://auth-api-996559796971.asia-southeast2.run.app
 
-- Clustering API Base URL
+- Clustering API Base URL :
 https://clustering-api-996559796971.asia-southeast2.run.app
 
 ## API
