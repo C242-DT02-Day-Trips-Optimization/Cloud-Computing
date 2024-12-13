@@ -360,7 +360,12 @@ This project provides a clustering and recommendation functionality. It allows u
 - hdbscan: For density-based clustering.
 - pandas: For data analysis and manipulation.
 
+# Postman Collections
+CRUD User API Collection
+- [Download CRUD User API Collection](https://drive.google.com/file/d/1ALAR12yuVX86f2lpYHuW_9vD7WF-p3eq/view?usp=sharing)
 
+clusterING API Collection
+- [Download clusterING API Collection](https://drive.google.com/file/d/1-f2TU69dEwB7avqT5sVqRT3dD4bxiLMD/view?usp=sharing)
 
 
 
