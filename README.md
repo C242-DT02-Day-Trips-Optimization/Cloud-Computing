@@ -4,9 +4,8 @@
 - [CRUD User API](#CRUD-User-API)
 - [clustering API](#clustering-API)
 - [Technologies Used](#technologies-used)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Figma Design](#figma-design)
+- [Postman Collections](#Postman-Collections)
+- [How to use postman Collection](#How-to-use-postman-Collection)
 
 # Overview
 ## Cloud Architecture
@@ -368,7 +367,7 @@ clusterING API Collection
 - [Download clusterING API Collection](https://drive.google.com/file/d/1-f2TU69dEwB7avqT5sVqRT3dD4bxiLMD/view?usp=sharing)
 
 # How to use postman Collection
-- Install Postman: Download and install Postman from Postman’s Official Website.
+- Install Postman: Download and install Postman from [Postman’s Official Website](https://www.postman.com/downloads/).
 
 - Import the Collections:
 Download the provided Postman collections for CRUD User API and ML Endpoints from the links above.
