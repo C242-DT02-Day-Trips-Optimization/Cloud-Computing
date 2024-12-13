@@ -1,6 +1,6 @@
 ## Table of Contents
 - [Overview](#overview)
-- [Based Urls](#Based_Urls)
+- [Based Urls](#Based-Urls)
 - [Clustering API](#clusteringAPI)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
